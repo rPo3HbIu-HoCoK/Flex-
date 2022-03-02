@@ -1,0 +1,140 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+html,body{
+    height: 100%;
+}
+
+header{    
+    background-color: aqua;     
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    text-align: center;
+    padding: 100px;   
+    height: 70px;
+}
+
+footer img{
+    height: 100px;
+}
+
+main{
+    background-color: lightblue;
+    
+}
+
+aside{
+    background-color: rgba(34, 207, 184, 0.89);
+    width: 200px;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-family: 'Lobster', cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu div{
+    background-color:cornflowerblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px; 
+    flex-basis: auto;     
+    flex-grow: 1;  
+    margin: 5px 0;      
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(11, 82, 235);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0;
+    flex-wrap: wrap;       
+}
+
+.chests{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.chests div{
+    height: 500px;
+    width: 375px;
+    background-color: blue;
+    color: white;
+    margin: 20px 0;
+}
+
+.chests h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.chests p{
+    font-size: 20px;
+    padding: 15px;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.chests img{
+    margin-left: 100px;  
+    height: 180px;
+    width: 180px;
+    
+}
+
+.block{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: left;
+    padding-bottom: 15px;
+}
+
+.block a{
+    color: turquoise;
+    display: flex;
+	flex-grow: 1;
+}
+
+.block button{
+    display: flex;
+	justify-content: space-between;
+    width: 150px;
+    height: 25px;
+    margin-left: 100px;
+    font-family: 'Lobster', cursive, Arial, Helvetica, sans-serif;
+}
+
+.block button img{  
+    margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	height: 20px;
+	width: 20px;   
+}
